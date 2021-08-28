@@ -1,0 +1,33 @@
+@charset "utf-8";
+#shield {
+    width: 45px;
+}
+
+section#undernav {
+    margin-top: 80px;
+}
+
+/*navbar links*/
+
+a.nav-link{
+    color: rgb(200,200,200)!important;
+}
+
+a.nav-link:hover{
+    color: white!important;
+}
+
+/*footer*/
+
+footer>div>div>a, footer>div>div {
+    color: white;
+    opacity: 90%;
+}
+
+footer {
+    margin-top: 15px;
+}
+
+footer a:hover {
+    color: blue;
+}

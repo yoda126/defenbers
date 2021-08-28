@@ -1,0 +1,34 @@
+@charset "utf-8";
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+}
+
+/*links*/
+
+p>a {
+    color: black;
+}
+
+p>a:hover {
+    color: blue;
+}
+
+/*forms*/
+
+/*add red asterick on the part of form required to fill before submitting*/
+.required:after {
+    content: " *";
+    color: red;
+}
+
+form {
+    border: 1px solid black;
+}
+
+form label {
+    font-size: 19px;
+}

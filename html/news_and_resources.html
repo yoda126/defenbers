@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Get all your reliable and insightful news and resources from DEFENBER. All articles and researches have been reviewed by DEFENBER before publishing.">
+    <meta name="keywords"
+        content="defenber, cyber, security, services, cyber security, cyber security services, news, articles, research, resources">
+    <meta name="author" content="Chian ZhengHang">
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Cyber Security Services | DEFENBERS: News and Resources</title>
+
+    <!--Icon in title-->
+    <link rel="icon" href="../images/shield_cropped.png" />
+
+    <!--My stylesheets-->
+    <link rel="stylesheet" href="../css/all/nav_and_footer.css">
+    <link rel="stylesheet" href="../css/News_and_Resources/news_and_resource_layout.css">
+    <link rel="stylesheet" href="../css/News_and_Resources/news_and_resource_styles.css">
+
+    <!--Font awesome-->
+    <script src="https://kit.fontawesome.com/63d482e933.js" crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+    <!--Top navbar-->
+    <div class="container-fluid">
+        <div class="row bg-dark fixed-top">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 col-md-12">
+                <nav class="navbar navbar-dark bg-dark navbar-expand-lg ">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collaspenav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-brand"><img src="../images/shield_cropped.png" id="shield"
+                            alt="DEFENBER logo">DEFENBER</div>
+                    <div class="collapse navbar-collapse" id="collaspenav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">About Us</a> </li>
+                            <li class="nav-item"><a class="nav-link" href="services.html">Services</a> </li>
+                            <li class="nav-item"><a class="nav-link" href="news_and_resources.html">News and
+                                    Resources</a> </li>
+                            <li class="nav-item"><a class="nav-link" href="contact_us.html">Contact Us</a> </li>
+                            <li class="nav-item"><a class="nav-link" href="FAQs.html">FAQs</a> </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+
+        <section id="undernav">
+            <article>
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <h1 class="col-lg-8 col-md-12 text-center">News</h1>
+                    <div class="col-lg-2"></div>
+                </div>
+            </article>
+            <article>
+                <!--News for large and above screen size-->
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div id="newsforlarge" class="carousel slide d-none d-lg-block col-lg-8" data-ride="carousel"
+                        data-interval="0">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card-group">
+                                    <a href="#" class="card">
+                                        <img class="card-img-top" src="../images/News_and_resources/Breaking_news.jpg"
+                                            alt="Breaking news">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Breaking News</h3>
+                                            <p class="card-text">Get all the latest and reliable reports on breaking
+                                                news.</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="card">
+                                        <img class="card-img-top"
+                                            src="../images/News_and_resources/Malware_on_laptop.jpg"
+                                            alt="Malware on laptop">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Malware and vulnerabilities</h3>
+                                            <p class="card-text">Get the news about the latest and dangerous malware,
+                                                software and hardware vulnerabilities.</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="card">
+                                        <img class="card-img-top" src="../images/News_and_resources/Data_breach.jpg"
+                                            alt="Data breach">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Breaches and incidents</h3>
+                                            <p class="card-text">Get the news about the latest data breaches and other
+                                                cyber incidents.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card-group">
+                                    <a href="#" class="card">
+                                        <img class="card-img-top" src="../images/News_and_resources/Cyber_laws.jpg"
+                                            alt="Cyber laws">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Cyber laws, policy, regulations</h3>
+                                            <p class="card-text">Get the latest news about enacting and discussion of
+                                                cyber laws, policy, regulations all over the world.</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="card">
+                                        <img class="card-img-top"
+                                            src="../images/News_and_resources/Cyber_innovation.jpg"
+                                            alt="Cyber innovation">
+                                        <div class="card-body">
+                                            <h3 class="card-title">New Cyber Innovations</h3>
+                                            <p class="card-text">Get the latest news about new cyber innovations that
+                                                would impact the world.</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="card">
+                                        <img class="card-img-top"
+                                            src="../images/News_and_resources/Cyber_security_products.jpg"
+                                            alt="Cyber security products">
+                                        <div class="card-body">
+                                            <h3 class="card-title">New Cyber Security products and services</h3>
+                                            <p class="card-text">Get the latest news about release of new cyber security
+                                                products and services.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#newsforlarge" role="button" data-slide="prev">
+                            <span><i class="fas fa-chevron-left"></i></span>
+                        </a>
+                        <a class="carousel-control-next" href="#newsforlarge" role="button" data-slide="next">
+                            <span><i class="fas fa-chevron-right"></i></span>
+                        </a>
+                    </div>
+
+                    <!--News for medium screen size-->
+                    <div id="newsformedium" class="carousel slide d-none d-md-block d-lg-none col-md-12"
+                        data-ride="carousel" data-interval="0">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card-group">
+                                    <a href="#" class="card">
+                                        <img class="card-img-top" src="../images/News_and_resources/Breaking_news.jpg"
+                                            alt="Breaking news">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Breaking News</h3>
+                                            <p class="card-text">Get all the latest and reliable reports on breaking
+                                                news.</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="card">
+                                        <img class="card-img-top"
+                                            src="../images/News_and_resources/Malware_on_laptop.jpg"
+                                            alt="Malware on laptop">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Malware and vulnerabilities</h3>
+                                            <p class="card-text">Get the news about the latest and dangerous malware,
+                                                software and hardware vulnerabilities.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card-group">
+                                    <a href="#" class="card">
+                                        <img class="card-img-top" src="../images/News_and_resources/Data_breach.jpg"
+                                            alt="Data breach">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Breaches and incidents</h3>
+                                            <p class="card-text">Get the news about the latest data breaches and other
+                                                cyber incidents.</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="card">
+                                        <img class="card-img-top" src="../images/News_and_resources/Cyber_laws.jpg"
+                                            alt="Cyber laws">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Cyber laws, policy, regulations</h3>
+                                            <p class="card-text">Get the latest news about enacting and discussion of
+                                                cyber laws, policy, regulations all over the world.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card-group">
+                                    <a href="#" class="card">
+                                        <img class="card-img-top"
+                                            src="../images/News_and_resources/Cyber_innovation.jpg"
+                                            alt="Cyber innovation">
+                                        <div class="card-body">
+                                            <h3 class="card-title">New Cyber Innovations</h3>
+                                            <p class="card-text">Get the latest news about new cyber innovations that
+                                                would impact the world.</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="card">
+                                        <img class="card-img-top"
+                                            src="../images/News_and_resources/Cyber_security_products.jpg"
+                                            alt="Cyber security products">
+                                        <div class="card-body">
+                                            <h3 class="card-title">New Cyber Security products and services</h3>
+                                            <p class="card-text">Get the latest news about release of new cyber security
+                                                products and services.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#newsformedium" role="button" data-slide="prev">
+                            <span><i class="fas fa-chevron-left"></i></span>
+                        </a>
+                        <a class="carousel-control-next" href="#newsformedium" role="button" data-slide="next">
+                            <span><i class="fas fa-chevron-right"></i></span>
+                        </a>
+                    </div>
+
+                    <!--News for small screen size-->
+                    <div id="newsforsmall" class="carousel slide d-block d-md-none col-sm-12" data-ride="carousel"
+                        data-interval="0">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="#" class="card">
+                                    <img class="card-img-top" src="../images/News_and_resources/Breaking_news.jpg"
+                                        alt="Breaking news">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Breaking News</h3>
+                                        <p class="card-text">Get all the latest and reliable reports on breaking
+                                            news.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#" class="card">
+                                    <img class="card-img-top" src="../images/News_and_resources/Malware_on_laptop.jpg"
+                                        alt="Malware on laptop">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Malware and vulnerabilities</h3>
+                                        <p class="card-text">Get the news about the latest and dangerous malware,
+                                            software and hardware vulnerabilities.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#" class="card">
+                                    <img class="card-img-top" src="../images/News_and_resources/Data_breach.jpg"
+                                        alt="Data breach">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Breaches and incidents</h3>
+                                        <p class="card-text">Get the news about the latest data breaches and other
+                                            cyber incidents.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#" class="card">
+                                    <img class="card-img-top" src="../images/News_and_resources/Cyber_laws.jpg"
+                                        alt="Cyber laws">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Cyber laws, policy, regulations</h3>
+                                        <p class="card-text">Get the latest news about enacting and discussion of
+                                            cyber laws, policy, regulations all over the world.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#" class="card">
+                                    <img class="card-img-top" src="../images/News_and_resources/Cyber_innovation.jpg"
+                                        alt="Cyber innovation">
+                                    <div class="card-body">
+                                        <h3 class="card-title">New Cyber Innovations</h3>
+                                        <p class="card-text">Get the latest news about new cyber innovations that
+                                            would impact the world.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#" class="card">
+                                    <img class="card-img-top"
+                                        src="../images/News_and_resources/Cyber_security_products.jpg"
+                                        alt="Cyber security products">
+                                    <div class="card-body">
+                                        <h3 class="card-title">New Cyber Security products and services</h3>
+                                        <p class="card-text">Get the latest news about release of new cyber security
+                                            products and services.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#newsforsmall" role="button" data-slide="prev">
+                            <span><i class="fas fa-chevron-left"></i></span>
+                        </a>
+                        <a class="carousel-control-next" href="#newsforsmall" role="button" data-slide="next">
+                            <span><i class="fas fa-chevron-right"></i></span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+            </article>
+            <article>
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <h1 class="col-lg-8 col-md-12 text-center">Resources</h1>
+                    <div class="col-lg-2"></div>
+                </div>
+            </article>
+            <article>
+                <!--Resources for large and above screen size-->
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div id="resourcesforlarge" class="carousel slide d-none d-lg-block col-lg-8" data-ride="carousel"
+                        data-interval="0">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card-group">
+                                    <a href="#" class="card">
+                                        <img class="card-img-top"
+                                            src="../images/News_and_resources/Cyber_regulation_and_laws.jpg"
+                                            alt="Cyber regulation and laws">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Cyber regulation and laws</h3>
+                                            <p class="card-text">Get research on cyber regulations and laws of lots of
+                                                different countries and what effects they have.</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="card">
+                                        <img class="card-img-top" src="../images/News_and_resources/Malware_on_mac.png"
+                                            alt="Malware on mac">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Malware</h3>
+                                            <p class="card-text">Get research about malware, how they work and what
+                                                effects they have.</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="card">
+                                        <img class="card-img-top" src="../images/News_and_resources/Cyber_criminal.jpg"
+                                            alt="Cyber criminal">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Cyber crimes</h3>
+                                            <p class="card-text">Get research about cyber crimes, what they are, how
+                                                they work and how they affect the world.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card-group">
+                                    <a href="#" class="card">
+                                        <img class="card-img-top"
+                                            src="../images/News_and_resources/Internet_privacy.jpg"
+                                            alt="Internet privacy">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Online privacy</h3>
+                                            <p class="card-text">Get research on online privacy like how safe you are
+                                                online, how the data the companies collect are being used.</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="card">
+                                        <img class="card-img-top"
+                                            src="../images/News_and_resources/Artificial_intelligience.jpg"
+                                            alt="Artificial intelligience">
+                                        <div class="card-body">
+                                            <h3 class="card-title">AI</h3>
+                                            <p class="card-text">Get research on how AI can or is impacting cyber
+                                                security.</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="card">
+                                        <img class="card-img-top"
+                                            src="../images/News_and_resources/Internet_of_Things.jpg"
+                                            alt="Internet of Things">
+                                        <div class="card-body">
+                                            <h3 class="card-title">IoT</h3>
+                                            <p class="card-text">Get research on security of the internet of things.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#resourcesforlarge" role="button" data-slide="prev">
+                            <span><i class="fas fa-chevron-left"></i></span>
+                        </a>
+                        <a class="carousel-control-next" href="#resourcesforlarge" role="button" data-slide="next">
+                            <span><i class="fas fa-chevron-right"></i></span>
+                        </a>
+                    </div>
+
+                    <!--Resources for medium screen size-->
+                    <div id="resourcesformedium" class="carousel slide d-none d-md-block d-lg-none col-md-12"
+                        data-ride="carousel" data-interval="0">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card-group">
+                                    <a href="#" class="card">
+                                        <img class="card-img-top"
+                                            src="../images/News_and_resources/Cyber_regulation_and_laws.jpg"
+                                            alt="Cyber regulation and laws">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Cyber regulation and laws</h3>
+                                            <p class="card-text">Get research on cyber regulations and laws of lots of
+                                                different countries and what effects they have.</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="card">
+                                        <img class="card-img-top" src="../images/News_and_resources/Malware_on_mac.png"
+                                            alt="Malware on mac">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Malware</h3>
+                                            <p class="card-text">Get research about malware, how they work and what
+                                                effects they have.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card-group">
+                                    <a href="#" class="card">
+                                        <img class="card-img-top" src="../images/News_and_resources/Cyber_criminal.jpg"
+                                            alt="Cyber criminal">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Cyber crimes</h3>
+                                            <p class="card-text">Get research about cyber crimes, what they are, how
+                                                they work and how they affect the world.</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="card">
+                                        <img class="card-img-top"
+                                            src="../images/News_and_resources/Internet_privacy.jpg"
+                                            alt="Internet privacy">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Online privacy</h3>
+                                            <p class="card-text">Get research on online privacy like how safe you are
+                                                online, how the data the companies collect are being used.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card-group">
+                                    <a href="#" class="card">
+                                        <img class="card-img-top"
+                                            src="../images/News_and_resources/Artificial_intelligience.jpg"
+                                            alt="Artificial intelligience">
+                                        <div class="card-body">
+                                            <h3 class="card-title">AI</h3>
+                                            <p class="card-text">Get research on how AI can or is impacting cyber
+                                                security.</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="card">
+                                        <img class="card-img-top"
+                                            src="../images/News_and_resources/Internet_of_Things.jpg"
+                                            alt="Internet of Things">
+                                        <div class="card-body">
+                                            <h3 class="card-title">IoT</h3>
+                                            <p class="card-text">Get research on security of the internet of things.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#resourcesformedium" role="button" data-slide="prev">
+                            <span><i class="fas fa-chevron-left"></i></span>
+                        </a>
+                        <a class="carousel-control-next" href="#resourcesformedium" role="button" data-slide="next">
+                            <span><i class="fas fa-chevron-right"></i></span>
+                        </a>
+                    </div>
+
+                    <!--Resources for small screen size-->
+                    <div id="resourcesforsmall" class="carousel slide d-block d-sm-block d-md-none col-sm-12"
+                        data-ride="carousel" data-interval="0">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="#" class="card">
+                                    <img class="card-img-top"
+                                        src="../images/News_and_resources/Cyber_regulation_and_laws.jpg"
+                                        alt="Cyber regulation and laws">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Cyber regulation and laws</h3>
+                                        <p class="card-text">Get research on cyber regulations and laws of lots of
+                                            different countries and what effects they have.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#" class="card">
+                                    <img class="card-img-top" src="../images/News_and_resources/Malware_on_mac.png"
+                                        alt="Malware on mac">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Malware</h3>
+                                        <p class="card-text">Get research about malware, how they work and what
+                                            effects they have.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#" class="card">
+                                    <img class="card-img-top" src="../images/News_and_resources/Cyber_criminal.jpg"
+                                        alt="Cyber criminal">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Cyber crimes</h3>
+                                        <p class="card-text">Get research about cyber crimes, what they are, how
+                                            they work and how they affect the world.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#" class="card">
+                                    <img class="card-img-top" src="../images/News_and_resources/Internet_privacy.jpg"
+                                        alt="Internet privacy">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Online privacy</h3>
+                                        <p class="card-text">Get research on online privacy like how safe you are
+                                            online, how the data the companies collect are being used.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#" class="card">
+                                    <img class="card-img-top"
+                                        src="../images/News_and_resources/Artificial_intelligience.jpg"
+                                        alt="Artificial intelligience">
+                                    <div class="card-body">
+                                        <h3 class="card-title">AI</h3>
+                                        <p class="card-text">Get research on how AI can or is impacting cyber
+                                            security.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#" class="card">
+                                    <img class="card-img-top" src="../images/News_and_resources/Internet_of_Things.jpg"
+                                        alt="Internet of Things">
+                                    <div class="card-body">
+                                        <h3 class="card-title">IoT</h3>
+                                        <p class="card-text">Get research on security of the internet of things.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#resourcesforsmall" role="button" data-slide="prev">
+                            <span><i class="fas fa-chevron-left"></i></span>
+                        </a>
+                        <a class="carousel-control-next" href="#resourcesforsmall" role="button" data-slide="next">
+                            <span><i class="fas fa-chevron-right"></i></span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+            </article>
+        </section>
+
+        <footer>
+            <!--footer for large and above-->
+            <div class="row bg-dark">
+                <div class="col-lg-2  d-none d-lg-block"></div>
+                <div class="col-lg-6  d-none d-lg-block">&copy;2020 DEFENBER PTE LTD - All Rights Reserved</div>
+                <div class="col-lg-1  d-none d-lg-block text-right"><a href="#">Terms of Use</a></div>
+                <div class="col-lg-1  d-none d-lg-block text-right"><a href="#">Privacy policy</a></div>
+                <div class="col-lg-2  d-none d-lg-block"></div>
+                <div class="w-100"></div>
+                <div class="col-lg-2  d-none d-lg-block"></div>
+                <div class="col-lg-8  d-none d-lg-block text-right">This website is fictional and anything stated is NOT
+                    true
+                </div>
+                <div class="col-lg-2  d-none d-lg-block"></div>
+                <div class="w-100"></div>
+                <div class="col-lg-2  d-none d-lg-block"></div>
+                <div class="col-lg-8  d-none d-lg-block text-right"><a href="credit.html">Credits</a></div>
+                <div class="col-lg-2  d-none d-lg-block"></div>
+            </div>
+            <!--footer for medium and small and below-->
+            <div class="row bg-dark d-lg-none">
+                <div class="col-md-12 d-none d-md-block">&copy;2020 DEFENBER PTE LTD - All Rights Reserved</div>
+                <div class="col-md-12 d-md-none">&copy;2020 DEFENBER PTE LTD - All Rights Reserved</div>
+                <div class="w-100"></div>
+                <div class="col-md-3 col-sm-12 "><a href="#">Terms of Use</a></div>
+                <div class="col-md-3 col-sm-12 "><a href="#">Privacy policy</a></div>
+                <div class="col-md-4"></div>
+                <div class="col-md-8">This website is fictional and anything stated is NOT true</div>
+                <div class="col-md-4"></div>
+                <div class="col-md-8"><a href="credit.html">Credits</a></div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

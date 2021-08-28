@@ -1,0 +1,35 @@
+@charset "utf-8";
+div#faqheader {
+    margin-bottom: 15px;
+}
+
+aside {
+    margin-bottom: 15px;
+}
+
+/*question*/
+
+button.question {
+    width: 100%;
+    padding: 15px;
+}
+
+/*answer*/
+
+div.answer {
+    padding: 0 15px;
+}
+
+p.answertext {
+    margin: 10px;
+}
+
+/*Icon*/
+
+i {
+    float: right;
+}
+
+i.active {
+    display: none;
+}

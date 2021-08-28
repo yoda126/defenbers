@@ -1,0 +1,46 @@
+@charset "utf-8";
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+/*Links*/
+
+p>a {
+    color: black;
+}
+
+p>a:hover {
+    color: blue;
+}
+
+/*carousel*/
+
+p#carouselcaption2 {
+    color: red;
+}
+
+.carousel i {
+    font-size: 50px;
+    color: gray;
+}
+
+/*map*/
+
+iframe {
+    border: 0px;
+}
+
+/*Section containing address, contact number and email*/
+
+#largeandmediummail {
+    word-break: break-all;
+}
+
+.iconandtext>i {
+    font-size: 30px;
+}

@@ -1,0 +1,43 @@
+@charset "utf-8";
+div.card-body {
+    color: black;
+}
+
+/*news and resources for large screen size*/
+
+#newsforlarge div.card-body, #resourcesforlarge div.card-body {
+    font-size: 18px;
+}
+
+/*news and resources for medium screen size*/
+
+#newsformedium div.card-body, #resourcesformedium div.card-body {
+    color: black;
+    font-size: 20px;
+}
+
+/*news and resources for small screen size*/
+
+#newsforsmall div.card-body, #resourcesforsmall div.card-body {
+    color: black;
+    font-size: 23px;
+}
+
+/*image of cards*/
+
+.card-img-top {
+    border-bottom: 1px solid black;
+}
+
+/*icons*/
+
+i {
+    font-size: 50px;
+    color: gray;
+}
+
+/*Card link to change background colour when hovered over*/
+a.card:hover{
+    text-decoration: none;
+    background-color: rgb(200, 200, 200) ;
+}

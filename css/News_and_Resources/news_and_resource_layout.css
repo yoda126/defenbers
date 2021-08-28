@@ -1,0 +1,30 @@
+@charset "utf-8";
+/*news and resources for large screen size*/
+
+#newsforlarge img.card-img-top, #resourcesforlarge img.card-img-top {
+    height: 300px;
+}
+
+#newsforlarge div.card-body, #resourcesforlarge div.card-body {
+    height: 300px;
+}
+
+/*news and resources for medium screen size*/
+
+#newsformedium img.card-img-top, #resourcesformedium img.card-img-top {
+    height: 300px;
+}
+
+#newsformedium div.card-body, #resourcesformedium div.card-body {
+    height: 230px;
+}
+
+/*news and resources for small screen size*/
+
+#newsforsmall img.card-img-top, #resourcesforsmall img.card-img-top {
+    height: 300px;
+}
+
+#newsforsmall div.card-body, #resourcesforsmall div.card-body {
+    height: 200px;
+}

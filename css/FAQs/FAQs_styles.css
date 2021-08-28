@@ -1,0 +1,36 @@
+@charset "utf-8";
+h1 {
+    font-size: 40px;
+}
+
+/*FAQ question and answer*/
+
+button.question {
+    font-size: 25px;
+    background-color: rgb(230, 230, 230);
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.activated, button.question:hover {/*Make question button change colour when hovered over or when clicked and activated*/
+    background-color: rgb(200, 200, 200) !important
+}
+
+div.answer {
+    font-size: 20px;
+    overflow: hidden;
+    background-color: rgb(240, 240, 240);
+    max-height: 0;
+    transition: max-height 0.3s linear;
+}
+
+/*links*/
+
+p.answertext>a:hover {
+    color: blue;
+}
+
+p.answertext>a {
+    color: black;
+}
